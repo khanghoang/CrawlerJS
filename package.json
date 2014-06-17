@@ -1,0 +1,41 @@
+{
+  "name": "CrawlerJS",
+  "description": "ORIUN is a platform to capture data at various sites",
+  "version": "0.0.18",
+  "main": "index.js",
+  "author": "Rodrigo Matheus <rodrigorizando@gmail.com>",
+  "keywords": [
+    "crawlers",
+    "robots",
+    "dom",
+    "extraction",
+    "bigdata"
+  ],
+  "repository":{
+      "type": "git",
+      "url": "git://github.com/rodrigorizando/CrawlerJS.git"
+  },
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "csvtojson": "0.2.2",
+    "request": "2.34.0",
+    "cheerio": "0.13.1",
+    "node-fs": "0.1.7",
+    "mongoq": "0.2.3",
+    "limiter": "1.0.5",
+    "querystring": "*"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "engines": { 
+    "node": ">=0.1.97"
+  },
+  "license": "GPL",
+  "licenses": [{
+    "type" : "GPL",
+    "url" : "https://github.com/rodrigorizando/CrawlerJS/blob/master/LICENSE"
+  }]
+}
