@@ -1,5 +1,5 @@
 {
-  "name": "crawlerjs",
+  "name": "crawler-js",
   "description": "Opensource Framework Crawler in Node.js",
   "version": "0.0.0",
   "main": "index.js",
