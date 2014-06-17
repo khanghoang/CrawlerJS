@@ -1,22 +1,24 @@
 {
-  "name": "CrawlerJS",
-  "description": "ORIUN is a platform to capture data at various sites",
-  "version": "0.0.18",
+  "name": "crawlerjs",
+  "description": "Opensource Framework Crawler in Node.js",
+  "version": "0.0.0",
   "main": "index.js",
   "author": "Rodrigo Matheus <rodrigorizando@gmail.com>",
   "keywords": [
+    "crawler",
+    "scrapy",
+    "hacker",
     "crawlers",
     "robots",
+    "robot",
     "dom",
     "extraction",
+    "nsa",
     "bigdata"
   ],
   "repository":{
       "type": "git",
       "url": "git://github.com/rodrigorizando/CrawlerJS.git"
-  },
-  "scripts": {
-    "start": "node app"
   },
   "dependencies": {
     "csvtojson": "0.2.2",
