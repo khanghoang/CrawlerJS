@@ -4,7 +4,7 @@ CrawlerJS
 ## Example to use
 
 ```js
-var CrawlerJS = require('CrawlerJS');
+var crawlerJS = require('CrawlerJS');
 
 var worlds = {
   limiter: 1,
@@ -31,5 +31,5 @@ var config = {
   mongoDBPort: '27017'
 }
 
-CrawlerJS(worlds,config)
+crawlerJS(worlds,config)
 ```
