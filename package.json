@@ -21,16 +21,13 @@
       "url": "git://github.com/rodrigorizando/CrawlerJS.git"
   },
   "dependencies": {
-    "csvtojson": "0.2.2",
+    "csvtojson": "0.3.11",
     "request": "2.34.0",
     "cheerio": "0.13.1",
     "node-fs": "0.1.7",
     "mongoq": "0.2.3",
     "limiter": "1.0.5",
     "querystring": "*"
-  },
-  "devDependencies": {
-    "mocha": "*"
   },
   "engines": { 
     "node": ">=0.1.97"
