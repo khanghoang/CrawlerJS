@@ -1,7 +1,7 @@
-<img src="http://crawlerjs.org/content/images/2014/Jun/logo-5.png" alt="Crawler-js: Open source framework crawler in node.js" width="432px" />
+<img src="http://crawlerjs.org/content/images/2014/Jun/logo-5.png" alt="Crawler-js, Open source framework crawler in node.js" width="432px" heigth="81" />
 
 [Visit crawlerjs.org for more info](https://crawlerjs.org)
-=====
+
 I was upset not to have something simple to extract information to do experiments. Thus was born the CrawlerJS, a platform that enables extract information from any websites without having to keep worrying about developing.
 
 Rodrigo Matheus
