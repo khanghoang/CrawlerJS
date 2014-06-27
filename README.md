@@ -24,17 +24,10 @@ var worlds = {
       dataType: '0',
       selector: '.TableContentContainer table.TableContent tr',
       elements: "data.world = $(this).children('td').eq(0).children('a').attr('href'); if(typeof data.world == 'undefined'){delete data.world;}",
-      csv: 'worlds.csv',
-      mongoCollection: 'tibiaWorlds'
+      csv: 'worlds.csv'
     }
   ]
 }
 
-var config = {
-  mongoDB: 'tibiatics',
-  mongoDBHost: 'localhost',
-  mongoDBPort: '27017'
-}
-
-crawlerJS(worlds,config)
+crawlerJS(worlds)
 ```
