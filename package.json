@@ -1,7 +1,7 @@
 {
   "name": "crawler-js",
   "description": "Opensource Framework Crawler in Node.js",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "main": "index.js",
   "author": "Rodrigo Matheus <rodrigorizando@gmail.com>",
   "keywords": [
@@ -26,7 +26,6 @@
     "cheerio": "0.13.1",
     "node-fs": "0.1.7",
     "mongoq": "0.2.3",
-    "limiter": "1.0.5",
     "querystring": "*"
   },
   "engines": { 
