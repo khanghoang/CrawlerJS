@@ -24,9 +24,8 @@
     "csvtojson": "0.3.11",
     "request": "2.34.0",
     "cheerio": "0.13.1",
-    "node-fs": "0.1.7",
     "mongoq": "0.2.3",
-    "querystring": "*"
+    "querystring": "0.2.0"
   },
   "engines": { 
     "node": ">=0.1.97"
