@@ -1,9 +1,8 @@
 {
-  "name": "crawler-js",
+  "name": "Crawler-js",
   "description": "Opensource Framework Crawler in Node.js",
-  "version": "0.0.11",
-  "main": "index.js",
-  "author": "Rodrigo Matheus <rodrigorizando@gmail.com>",
+  "homepage" : "http://crawlerjs.org",
+  "version": "0.0.12",
   "keywords": [
     "crawler",
     "scrapy",
@@ -16,9 +15,12 @@
     "nsa",
     "bigdata"
   ],
+  "bugs": {"url":"http://github.com/CrawlerJS/CrawlerJS/issues", "email":"rodrigorizando@gmail.com"},
+  "main": "index.js",
+  "author": "Rodrigo Matheus <rodrigorizando@gmail.com>",
   "repository":{
       "type": "git",
-      "url": "git://github.com/rodrigorizando/CrawlerJS.git"
+      "url": "git://github.com/CrawlerJS/CrawlerJS.git"
   },
   "dependencies": {
     "csvtojson": "0.3.11",
@@ -27,12 +29,5 @@
     "mongoq": "0.2.3",
     "querystring": "0.2.0"
   },
-  "engines": { 
-    "node": ">=0.1.97"
-  },
-  "license": "GPL",
-  "licenses": [{
-    "type" : "GPL",
-    "url" : "https://github.com/rodrigorizando/CrawlerJS/blob/master/LICENSE"
-  }]
+  "license": "GPL"
 }
