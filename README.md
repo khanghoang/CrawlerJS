@@ -1,4 +1,4 @@
-<img src="https://photos-2.dropbox.com/t/0/AADTqU9SijzmfNTVOZXqSqEsMoCo-0FUCDftbvNh5UeYmQ/12/2099895/png/2048x1536/3/1403874000/0/2/logo.png/6WtfDE_vWesVcKlDD_h7b1w1puH9YzLN0vVXJcmQ4fA" alt="Crawler-js, Open source framework crawler in node.js" width="432px" heigth="81" />
+<img src="http://crawlerjs.org/content/images/2014/Jun/logo-5.png" alt="Crawler-js, Open source framework crawler in node.js" width="432px" height="81" />
 
 [Visit crawlerjs.org for more info](http://crawlerjs.org)
 
