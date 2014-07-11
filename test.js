@@ -4,7 +4,7 @@ var worlds = {
   limiter: 1,
   interval: 1000,
   getSample: 'http://www.tibia.com/community/?subtopic=worlds',
-  get: 'http://www.tibia.com/community/?subtopic=[letters:2]',
+  get: 'http://www.tibia.com/community/?subtopic=[words:[peixe:bola:gato:pé:futebol:alemanha:oiaaa]]',
   statusHeader: [200],
   block: ['your ip is blocked'],
   preview: 1,
