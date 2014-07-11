@@ -4,7 +4,7 @@ var worlds = {
   limiter: 1,
   interval: 1000,
   getSample: 'http://www.tibia.com/community/?subtopic=worlds',
-  get: 'http://www.tibia.com/community/?subtopic=[csv:test.csv:|:0:-1]',
+  get: '[numbers:0:10:2] [numbers:0:5:1]',
   statusHeader: [200],
   block: ['your ip is blocked'],
   preview: 1,
