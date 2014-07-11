@@ -1,7 +1,6 @@
 var crawlerJS = require('./index.js');
 
 var worlds = {
-  limiter: 1,
   interval: 1000,
   getSample: 'http://www.tibia.com/community/?subtopic=worlds',
   get: '[numbers:0:10:2] [numbers:0:5:1]',
