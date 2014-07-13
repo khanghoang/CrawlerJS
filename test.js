@@ -3,7 +3,7 @@ var crawlerJS = require('./index.js');
 var worlds = {
   interval: 500,
   getSample: 'http://www.tibia.com/community/?subtopic=worlds',
-  get: '[csv:test.csv:|:0:1]|[numbers:0:5:1]',
+  get: '[words:[peixe:bola:gato]]|[words:[livro1:livro2:livro3]]',
   statusHeader: [200],
   block: ['your ip is blocked'],
   preview: 1,
