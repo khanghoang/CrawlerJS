@@ -1,9 +1,9 @@
 var crawlerJS = require('./index.js');
 
 var worlds = {
-  interval: 1000,
+  interval: 500,
   getSample: 'http://www.tibia.com/community/?subtopic=worlds',
-  get: '[numbers:0:10:2] [numbers:0:5:1]',
+  get: '[csv:test.csv:|:0:1]|[numbers:0:5:1]',
   statusHeader: [200],
   block: ['your ip is blocked'],
   preview: 1,
