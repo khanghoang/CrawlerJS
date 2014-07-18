@@ -17,3 +17,5 @@ node_modules
 .svn
 .wafpickle-*
 npm-debug.log
+*.csv
+*.txt
