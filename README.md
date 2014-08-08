@@ -9,7 +9,7 @@ Rodrigo Matheus
 ## Example to use
 
 ```js
-var crawlerJS = require('CrawlerJS');
+var CrawlerJS = require('crawler-js');
 
 var worlds = {
   interval: 1000,
@@ -25,5 +25,5 @@ var worlds = {
   ]
 }
 
-crawlerJS(worlds)
+CrawlerJS(worlds);
 ```
