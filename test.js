@@ -1,20 +1,23 @@
 var crawlerJS = require('./index.js');
 
 var worlds = {
-  interval: 500,
-  getSample: 'http://www.tibia.com/community/?subtopic=worlds',
-  get: '[words:[peixe:bola:gato]]|[words:[livro1:livro2:livro3]]',
-  statusHeader: [200],
-  block: ['your ip is blocked'],
-  preview: 1,
+  interval: 1000,
+  getSample: 'http://www.tibia.com/community/?subtopic=worlds&world=Xerena',
+  get: 'http://www.tibia.com/community/?subtopic=worlds&world=[mongodb:test:name:id]&wasreloaded=1',
+  preview: 0,
   extractors: [
     {
-      dataType: '0',
-      selector: '.TableContentContainer table.TableContent tr',
-      elements: "data.world = $(this).children('td').eq(0).children('a').attr('href'); if(typeof data.world == 'undefined'){delete data.world;}",
-      csv: 'worlds.csv'
+      selector: '.InnerTableContainer tr',
+      elements: "data.char = String($(this).children('td').eq(0).children('a').text()); if(data.char == ''){data = {};}",
+      mongoCollection: 'players'
     }
   ]
 }
 
-crawlerJS(worlds)
+var config = {
+  mongoDB:'TDC',
+  mongoDBHost: 'localhost',
+  mongoDBPort: '27017'
+}
+
+crawlerJS(worlds,config);
