@@ -1,23 +1,16 @@
 var crawlerJS = require('./index.js');
 
-var worlds = {
+var cidades = {
   interval: 1000,
-  getSample: 'http://www.tibia.com/community/?subtopic=worlds&world=Xerena',
-  get: 'http://www.tibia.com/community/?subtopic=worlds&world=[mongodb:test:name:id]&wasreloaded=1',
+  getSample: 'http://tim-localizadorlojas.geoportal3d.com.br/rest/index/cidadebyestado?estado=25',
+  get: 'http://tim-localizadorlojas.geoportal3d.com.br/rest/index/cidadebyestado?estado=[numbers:1:27:1]',
   preview: 0,
   extractors: [
     {
-      selector: '.InnerTableContainer tr',
-      elements: "data.char = String($(this).children('td').eq(0).children('a').text()); if(data.char == ''){data = {};}",
-      mongoCollection: 'players'
+      elements: "var cidades = JSON.parse(body); data = cidades.listaObjeto;",
+      csv: {name:'cidades.csv',separator:'|',delimiter:'"'}
     }
   ]
 }
 
-var config = {
-  mongoDB:'TDC',
-  mongoDBHost: 'localhost',
-  mongoDBPort: '27017'
-}
-
-crawlerJS(worlds,config);
+crawlerJS(cidades,{localProxy: 'http://spobrproxy:3128/'});
