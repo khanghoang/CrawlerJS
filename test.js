@@ -1,16 +1,24 @@
 var crawlerJS = require('./index.js');
 
-var cidades = {
+var crawler = {
   interval: 1000,
-  getSample: 'http://tim-localizadorlojas.geoportal3d.com.br/rest/index/cidadebyestado?estado=25',
-  get: 'http://tim-localizadorlojas.geoportal3d.com.br/rest/index/cidadebyestado?estado=[numbers:1:27:1]',
+  getSample: 'http://science.gsfc.nasa.gov/sed//index.cfm?fuseAction=people.staffList&navOrgCode=600&navTab=nav_about_us&PageNum=1',
+  get: 'http://science.gsfc.nasa.gov/sed//index.cfm?fuseAction=people.staffList&navOrgCode=600&navTab=nav_about_us&PageNum=[numbers:1:10000:100]',
   preview: 0,
   extractors: [
     {
-      elements: "var cidades = JSON.parse(body); data = cidades.listaObjeto;",
-      csv: {name:'cidades.csv',separator:'|',delimiter:'"'}
+      selector: '#border-spacing tr',
+      elements: "data.nome = $(this).children('td').eq(0).children('a').text(); data.filial = $(this).children('td').eq(3).text();  data.telefone = $(this).children('td').eq(4).text();",
+      mongoCollection: 'funcionarios-da-nasa'
     }
   ]
 }
 
-crawlerJS(cidades,{localProxy: 'http://spobrproxy:3128/'});
+var config = {
+  localProxy: 'http://spobrproxy:3128/',
+  mongoDB: 'captacoes',
+  mongoDBHost: 'localhost',
+  mongoDBPort: '27017'
+}
+
+crawlerJS(crawler,config);
