@@ -4,7 +4,7 @@ var crawler = {
   interval: 1000,
   cookieSample: 'https://portaldocidadao.saude.gov.br/portalcidadao/validaNumeroCNS.htm',
   cookie: 'https://portaldocidadao.saude.gov.br/portalcidadao/validaNumeroCNS.htm',
-  cookieCode: '',
+  cookieCode: 'console.log(gsaCaptchaBreaker);',
   getSample: 'https://portaldocidadao.saude.gov.br/portalcidadao/validaNumeroCNS.htm',
   get: 'https://portaldocidadao.saude.gov.br/portalcidadao/validaNumeroCNS.htm',
   encodeget: false,
