@@ -1,0 +1,8 @@
+doc/
+test/
+examples/
+coverage/
+Gruntfile.js
+Makefile
+npm-debug.log
+

@@ -1,0 +1,51 @@
+{
+  "name": "crawlerjs",
+  "version": "1.0.0",
+  "description": "Opensource web data extraction for Node.js",
+  "main": "./lib/crawler.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CrawlerJS/CrawlerJS.git"
+  },
+  "keywords": [
+    "crawler",
+    "scrapy",
+    "hacker",
+    "crawlers",
+    "robots",
+    "robot",
+    "dom",
+    "extraction",
+    "nsa",
+    "bigdata"
+  ],
+  "author": "Rodrigo Matheus <rodrigorizando@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrawlerJS/CrawlerJS/issues"
+  },
+  "homepage": "https://github.com/CrawlerJS/CrawlerJS",
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "coveralls": "^2.11.2",
+    "grunt": "^0.4.5",
+    "grunt-run": "^0.2.4",
+    "istanbul": "^0.3.2",
+    "jshint": "^2.5.6",
+    "mocha": "^1.21.5",
+    "nock": "^0.48.1"
+  },
+  "dependencies": {
+    "bluebird": "^2.3.6",
+    "request": "^2.45.0",
+    "xmldom": "^0.1.19",
+    "xpath": "0.0.7"
+  }
+}
