@@ -1,5 +1,15 @@
 module.exports = function(grunt) {
   grunt.initConfig({
+
+    // Documentation
+    jsdoc2md: {
+      api: {
+        src: './lib/crawler.js',
+        dest: './docs/api.md'
+      }
+    },
+
+    // Custom tasks
     run: {
 
       // Run all the tests inside the test folder
@@ -50,11 +60,17 @@ module.exports = function(grunt) {
 
   // Loading NPM Grunt plugins
   grunt.loadNpmTasks('grunt-run');
+  grunt.loadNpmTasks('grunt-jsdoc-to-markdown');
 
   // Registering custom named tasks for easy access
   grunt.registerTask('test', [
     'run:hint',
     'run:mocha'
+  ]);
+
+
+  grunt.registerTask('docs', [
+    'jsdoc2md'
   ]);
 
   // This is the command that Travis will run

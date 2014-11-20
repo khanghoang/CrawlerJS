@@ -1,11 +1,31 @@
-// This is an example for crawling StackOverflow's engine,
-// first we need to create our manifest, or configuration
-
 var Crawler = require('../');
+
 var manifest = {
   target: {
-    // Here we need some infos to acess the website
-    url: 'https://stackoverflow.com/questions/tagged/node.js'
+    url: 'http://techcrunch.com/startups/page/{{number}}',
+    ranges: {
+      number: [0, 100, 5] // from 0 to 100 and step 5 numbers each time
+      // letter: ['a', 'z'] // from a to z, put {{letter}} where you want it
+      // resource: 'csv' // configure this resource and put {{resource:csv}}
+      // resource: 'mongodb' // configure it and put {{resource:mongodb}}
+
+    },
+    interval: 1 * 60 * 1000 // Wait 60 seconds between each access
+  },
+  resources: {
+    csv: {
+      plugin: 'csv'
+    },
+    mongodb: {
+      plugin: 'mongodb',
+      options: {
+        collection: 'users',
+        field: 'name',
+        query: {
+          email: /@gmail.com/i
+        }
+      }
+    }
   },
   extractors: [{
     // The name for this extractor
@@ -48,7 +68,6 @@ job.on('error', function(err) {
 job.on('end', function() {
   console.log('The job is done');
 });
-
 
 // Start our job
 job.start();

@@ -1,8 +1,5 @@
-doc/
-test/
-examples/
-coverage/
-Gruntfile.js
-Makefile
-npm-debug.log
-
+*/**
+!lib/**/*
+!package.json
+!license
+!readme.md

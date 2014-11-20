@@ -1,5 +1,5 @@
 [![CrawlerJS](assets/crawlerjs.jpg)](https://github.com/CrawlerJS/CrawlerJS)
-----
+---
 [![Coverage Status](https://img.shields.io/coveralls/CrawlerJS/CrawlerJS.svg)](https://coveralls.io/r/CrawlerJS/CrawlerJS)
 [![Build Status](https://secure.travis-ci.org/CrawlerJS/CrawlerJS.png)](https://travis-ci.org/CrawlerJS/CrawlerJS)
 [![Dependencies Status](https://david-dm.org/CrawlerJS/CrawlerJS.png)](https://david-dm.org/CrawlerJS/CrawlerJS)
@@ -7,7 +7,8 @@
 
 
 Open source module for crawling web pages for information and data. This module
-is extremely extensible and pluggable, feel free to play with it.
+is extremely extensible and pluggable, feel free to play with it. [Visit
+crawlerjs.org for more info][0].
 
 ### Examples
 
@@ -97,5 +98,6 @@ OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
 TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
 THIS SOFTWARE.
 
+[0]: http://crawlerjs.org
 
 
