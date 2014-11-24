@@ -89,6 +89,7 @@ var manifest = {
     // Configure a plugin for this particular extractor
     plugins: {
       mongodb: {
+        collection: 'questions'
       },
       csv: {
         output: __dirname + '/startups.csv'
