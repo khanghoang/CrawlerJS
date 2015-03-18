@@ -1,0 +1,6 @@
+*/**
+!lib/**/*
+!package.json
+!license
+!readme.md
+!contributors.md
