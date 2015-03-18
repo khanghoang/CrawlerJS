@@ -1,7 +1,8 @@
 ### Contributors to the CrawlerJS project
 
 * Rodrigo Matheus <rodrigorizando@gmail.com>
-  * [17/05/2014] The leader and evil mind behind this awesome project
+  * [05/17/2014] The leader and evil mind behind this awesome project
 
 * Alan Hoffmeister <alanhoffmeister@gmail.com>
-  * [20/10/2014] Rewrote the project to the version 1.0.0-alpha
+  * [10/20/2014] Rewrote the project to the version 1.0.0-alpha
+  * [03/15/2015] First release of the rewritten project

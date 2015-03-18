@@ -1,6 +1,9 @@
 # Ch-ch-changlelog!
 
-* 20-11-2014
+* 11-20-2014
   - Added style guide
   - Added contributing guide
-  - Fixes contributors
+  - Fixed contributors
+
+* 03-15-2015
+  - `start: true` is now working
