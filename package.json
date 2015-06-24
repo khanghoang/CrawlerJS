@@ -1,6 +1,6 @@
 {
-  "name": "crawlerjs",
-  "version": "1.0.0",
+  "name": "crawler-js",
+  "version": "1.0.1",
   "description": "Opensource web data extraction framework for Node.js",
   "main": "./lib/crawler.js",
   "directories": {
