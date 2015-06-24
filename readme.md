@@ -1,9 +1,5 @@
 [![CrawlerJS](assets/crawlerjs.jpg)](https://github.com/CrawlerJS/CrawlerJS)
 ---
-[![Coverage Status](https://img.shields.io/coveralls/CrawlerJS/CrawlerJS.svg)](https://coveralls.io/r/CrawlerJS/CrawlerJS)
-[![Build Status](https://secure.travis-ci.org/CrawlerJS/CrawlerJS.png)](https://travis-ci.org/CrawlerJS/CrawlerJS)
-[![Dependencies Status](https://david-dm.org/CrawlerJS/CrawlerJS.png)](https://david-dm.org/CrawlerJS/CrawlerJS)
-[![DevDependencies Status](https://david-dm.org/CrawlerJS/CrawlerJS/dev-status.png)](https://david-dm.org/CrawlerJS/CrawlerJS)
 
 
 Open source module for crawling web pages for information and data. This module
