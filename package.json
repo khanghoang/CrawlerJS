@@ -46,7 +46,7 @@
   "dependencies": {
     "bluebird": "2.3.6",
     "eventary": "2.0.1",
-    "grunt-jsdoc-to-markdown": "0.4.2",
+    "grunt-jsdoc-to-markdown": "1.1.1",
     "handlebars": "3.0.0",
     "joi": "6.0.8",
     "mustache": "1.1.0",
