@@ -2,5 +2,6 @@
 !lib/**/*
 !package.json
 !license
+!examples
 !readme.md
 !contributors.md
