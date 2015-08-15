@@ -2,7 +2,7 @@
   "name": "crawler-js",
   "description": "Opensource Framework Crawler in Node.js",
   "homepage" : "http://github.com/CrawlerJS/CrawlerJS",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "keywords": [
     "crawler",
     "scrapy",
