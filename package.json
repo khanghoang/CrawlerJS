@@ -1,19 +1,8 @@
 {
   "name": "crawler-js",
-  "version": "1.0.1",
-  "description": "Opensource web data extraction framework for Node.js",
-  "main": "./lib/crawler.js",
-  "directories": {
-    "example": "examples",
-    "test": "test"
-  },
-  "scripts": {
-    "test": "make test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/CrawlerJS/CrawlerJS.git"
-  },
+  "description": "Opensource Framework Crawler in Node.js",
+  "homepage" : "http://github.com/CrawlerJS/CrawlerJS",
+  "version": "2.0.0",
   "keywords": [
     "crawler",
     "scrapy",
@@ -26,33 +15,19 @@
     "nsa",
     "bigdata"
   ],
+  "bugs": {"url":"http://github.com/CrawlerJS/CrawlerJS/issues", "email":"rodrigorizando@gmail.com"},
+  "main": "index.js",
   "author": "Rodrigo Matheus <rodrigorizando@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/CrawlerJS/CrawlerJS/issues"
-  },
-  "homepage": "https://github.com/CrawlerJS/CrawlerJS",
-  "devDependencies": {
-    "chai": "2.1.2",
-    "coveralls": "2.11.2",
-    "grunt": "0.4.5",
-    "grunt-cli": "0.1.13",
-    "grunt-run": "0.3.0",
-    "istanbul": "0.3.8",
-    "jshint": "2.5.6",
-    "mocha": "2.2.1",
-    "nock": "1.2.0"
+  "repository":{
+    "type": "git",
+    "url": "git://github.com/CrawlerJS/CrawlerJS.git"
   },
   "dependencies": {
-    "bluebird": "2.3.6",
-    "eventary": "2.0.1",
-    "grunt-jsdoc-to-markdown": "1.1.1",
-    "handlebars": "3.0.0",
-    "joi": "6.0.8",
-    "mustache": "1.1.0",
-    "r...e": "0.2.0",
-    "request": "2.45.0",
-    "xmldom": "0.1.19",
-    "xpath": "0.0.9"
-  }
+    "csvtojson": "0.3.11",
+    "request": "2.34.0",
+    "cheerio": "0.13.1",
+    "mongoq": "0.2.3",
+    "querystring": "0.2.0"
+  },
+  "license": "ISC"
 }

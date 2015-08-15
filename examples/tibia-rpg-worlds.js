@@ -1,15 +1,4 @@
-###Crawler-js
----
-Open source crawler framework
-
-I was upset not to have something simple to extract information to do experiments. Thus was born the CrawlerJS, a platform that enables extract information from any websites without having to keep worrying about developing.
-
-Rodrigo Matheus
-
-## Example to use
-
-```js
-var crawlerjs = require('crawler-js');
+var crawlerjs = require('../index.js');
 
 var worlds = {
   interval: 1000,
@@ -36,6 +25,3 @@ var worlds = {
 }
 
 crawlerjs(worlds);
-```
-
-## See more examples on Examples path
