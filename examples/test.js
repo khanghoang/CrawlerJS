@@ -11,7 +11,10 @@ var crawler = {
   extractors: [
     {
       selector: 'a',
-      callback: function(err, html){
+      callback: function(err, html, url, response){
+        console.log('Crawled url:');
+        console.log(url);
+        // console.log(response); // If you need see more details about request
         if(!err){
           data = {};
           data.codigo = html.attr('href');

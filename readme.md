@@ -19,7 +19,10 @@ var worlds = {
   extractors: [
     {
       selector: '.TableContentContainer table.TableContent tr',
-      callback: function(err, html){
+      callback: function(err, html, url, response){
+        console.log('Crawled url:');
+        console.log(url);
+        // console.log(response); // If you need see more details about request
         if(!err){
           data = {};
           data.world = html.children('td').eq(0).children('a').attr('href');
